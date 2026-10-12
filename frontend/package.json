@@ -1,0 +1,29 @@
+{
+  "name": "care-navigator",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "test": "vitest run",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.1.2",
+    "vite": "8.3.4",
+    "typescript": "5.9.3",
+    "vitest": "5.0.3",
+    "@testing-library/react": "16.3.2",
+    "@testing-library/user-event": "14.6.1",
+    "jsdom": "28.1.0",
+    "@playwright/test": "1.58.2",
+    "@axe-core/playwright": "4.11.1"
+  }
+}
